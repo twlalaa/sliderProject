@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 30px 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.slider {
+  margin-inline: 10px;
+  background-image: url("images/pic1.jpg");
+  width: 300px;
+  background-size: cover;
+  height: 500px;
+}
+
+button {
+  padding: 5px;
+  background-color: black;
+  color: #fff;
+  border: 2px #000 solid;
+  cursor: pointer;
+  transition: 0.3s all linear;
+}
+
+button:hover {
+  background-color: white;
+  color: #000;
+  border: 2px #000 solid;
+}
